@@ -74,6 +74,7 @@
                             <h3><a href="job-detail.html">{{$dt->title}}</a></h3>
 
                             <p><span>{{$dt->companyname}}</span></p>
+                            <p><span>{{$dt->id}}</span></p>
                         </div>
                         
                         <div class="brows-job-type"><span class="part-time"><a class="button is-success" type="submit" href="{{route('jobdetail',$dt->id)}}">Job Detail</a></span></div>
